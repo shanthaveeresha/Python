@@ -1,0 +1,13 @@
+To work on python:
+
+#Download anaconda from the package and double click to install it
+https://www.anaconda.com/products/distribution/
+
+#run below commands to execute after installation of conda restart the terminal
+ conda update conda
+ conda update --all
+ conda install -c conda-forge ipympl
+ conda install nodejs   \\ if new version is not installed then u can choose higher version with below commands
+ conda install -c conda-forge/label/cf202003 nodejs
+ jupyter labextension install @jupyter-widgets/jupyterlab-manager
+ jupyter labextension install jupyter-matplotlib
